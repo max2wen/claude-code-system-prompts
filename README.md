@@ -34,7 +34,7 @@ Download it and try it out for free!  **https://piebald.ai/**
 > [!important]
 > **NEW (January 23, 2026): We've added all of Claude Code's ~40 system reminders to this list&mdash;see [System Reminders](#system-reminders).**
 
-This repository contains an up-to-date list of all Claude Code's various system prompts and their associated token counts as of **[Claude Code v2.1.98](https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.1.98) (April 9th, 2026).**  It also contains a [**CHANGELOG.md**](./CHANGELOG.md) for the system prompts across 145 versions since v2.0.14.  From the team behind [<img src="https://github.com/Piebald-AI/piebald/raw/main/assets/logo.svg" width="15"> **Piebald.**](https://piebald.ai/)
+This repository contains an up-to-date list of all Claude Code's various system prompts and their associated token counts as of **[Claude Code v2.1.100](https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.1.100) (April 9th, 2026).**  It also contains a [**CHANGELOG.md**](./CHANGELOG.md) for the system prompts across 146 versions since v2.0.14.  From the team behind [<img src="https://github.com/Piebald-AI/piebald/raw/main/assets/logo.svg" width="15"> **Piebald.**](https://piebald.ai/)
 
 **This repository is updated within minutes of each Claude Code release.  See the [changelog](./CHANGELOG.md), and follow [@PiebaldAI](https://x.com/PiebaldAI) on X for a summary of the system prompt changes in each release.**
 
@@ -172,7 +172,7 @@ Parts of the main system prompt.
 - [System Prompt: Censoring assistance with malicious activities](./system-prompts/system-prompt-censoring-assistance-with-malicious-activities.md) (**98** tks) - Guidelines for assisting with authorized security testing, defensive security, CTF challenges, and educational contexts while censoring requests for malicious activities.
 - [System Prompt: Chrome browser MCP tools](./system-prompts/system-prompt-chrome-browser-mcp-tools.md) (**156** tks) - Instructions for loading Chrome browser MCP tools via MCPSearch before use.
 - [System Prompt: Claude in Chrome browser automation](./system-prompts/system-prompt-claude-in-chrome-browser-automation.md) (**759** tks) - Instructions for using Claude in Chrome browser automation tools effectively.
-- [System Prompt: Communication style](./system-prompts/system-prompt-communication-style.md) (**305** tks) - Instructs Claude to give brief, user-facing updates at key moments during tool use, write concise end-of-turn summaries, match response format to task complexity, and avoid comments and planning documents in code.
+- [System Prompt: Communication style](./system-prompts/system-prompt-communication-style.md) (**289** tks) - Instructs Claude to give brief, user-facing updates at key moments during tool use, write concise end-of-turn summaries, match response format to task complexity, and avoid comments and planning documents in code.
 - [System Prompt: Context compaction summary](./system-prompts/system-prompt-context-compaction-summary.md) (**278** tks) - Prompt used for context compaction summary (for the SDK).
 - [System Prompt: Description part of memory instructions](./system-prompts/system-prompt-description-part-of-memory-instructions.md) (**148** tks) - Field for describing _what_ the memory is.  Part of a bigger effort to instruct Claude how to create memories.
 - [System Prompt: Doing tasks (ambitious tasks)](./system-prompts/system-prompt-doing-tasks-ambitious-tasks.md) (**47** tks) - Allow users to complete ambitious tasks; defer to user judgement on scope.
@@ -188,7 +188,6 @@ Parts of the main system prompt.
 - [System Prompt: Doing tasks (software engineering focus)](./system-prompts/system-prompt-doing-tasks-software-engineering-focus.md) (**104** tks) - Users primarily request software engineering tasks; interpret instructions in that context.
 - [System Prompt: Dream team memory handling](./system-prompts/system-prompt-dream-team-memory-handling.md) (**279** tks) - Instructions for handling shared team memories during dream consolidation, including deduplication, conservative pruning rules, and avoiding accidental promotion of personal memories.
 - [System Prompt: Executing actions with care](./system-prompts/system-prompt-executing-actions-with-care.md) (**590** tks) - Instructions for executing actions carefully.
-- [System Prompt: Exploratory questions — analyze before implementing](./system-prompts/system-prompt-exploratory-questions-analyze-before-implementing.md) (**117** tks) - Instructs Claude to respond to open-ended questions with analysis, options, and tradeoffs instead of jumping to implementation, waiting for user agreement before writing code.
 - [System Prompt: Fork usage guidelines](./system-prompts/system-prompt-fork-usage-guidelines.md) (**419** tks) - Instructions for when to fork subagents and rules against reading fork output mid-flight or fabricating fork results.
 - [System Prompt: Git status](./system-prompts/system-prompt-git-status.md) (**37** tks) - System prompt for displaying the current git status at the start of the conversation.
 - [System Prompt: Hooks Configuration](./system-prompts/system-prompt-hooks-configuration.md) (**1493** tks) - System prompt for hooks configuration.  Used for above Claude Code config skill.
@@ -208,7 +207,6 @@ Parts of the main system prompt.
 - [System Prompt: Minimal mode](./system-prompts/system-prompt-minimal-mode.md) (**164** tks) - Describes the behavior and constraints of minimal mode, which skips hooks, LSP, plugins, auto-memory, and other features while requiring explicit context via CLI flags.
 - [System Prompt: One of six rules for using sleep command](./system-prompts/system-prompt-one-of-six-rules-for-using-sleep-command.md) (**23** tks) - One of the six rules for using the sleep command.
 - [System Prompt: Option previewer](./system-prompts/system-prompt-option-previewer.md) (**151** tks) - System prompt for previewing UI options in a side-by-side layout.
-- [System Prompt: Output efficiency](./system-prompts/system-prompt-output-efficiency.md) (**177** tks) - Instructs Claude to be concise and direct in text output, leading with answers over reasoning and limiting responses to essential information.
 - [System Prompt: Parallel tool call note (part of "Tool usage policy")](./system-prompts/system-prompt-parallel-tool-call-note-part-of-tool-usage-policy.md) (**102** tks) - System prompt for telling Claude to using parallel tool calls.
 - [System Prompt: Partial compaction instructions](./system-prompts/system-prompt-partial-compaction-instructions.md) (**725** tks) - Instructions on how to compact when the user decided to compact only a portion of the conversation, with a structured summary format and analysis process.
 - [System Prompt: Phase four of plan mode](./system-prompts/system-prompt-phase-four-of-plan-mode.md) (**142** tks) - Phase four of plan mode.
@@ -234,7 +232,6 @@ Parts of the main system prompt.
 - [System Prompt: Tool usage (skill invocation)](./system-prompts/system-prompt-tool-usage-skill-invocation.md) (**102** tks) - Slash commands invoke user-invocable skills via Skill tool.
 - [System Prompt: Tool usage (subagent guidance)](./system-prompts/system-prompt-tool-usage-subagent-guidance.md) (**103** tks) - Guidance on when and how to use subagents effectively.
 - [System Prompt: Tool usage (task management)](./system-prompts/system-prompt-tool-usage-task-management.md) (**70** tks) - Use TodoWrite to break down and track work progress.
-- [System Prompt: User-facing communication style](./system-prompts/system-prompt-user-facing-communication-style.md) (**535** tks) - Guidelines for writing clear, concise, and readable user-facing text including prose style, update cadence, formatting rules, and audience-aware explanations.
 - [System Prompt: Worker instructions](./system-prompts/system-prompt-worker-instructions.md) (**272** tks) - Instructions for workers to follow when implementing a change.
 - [System Prompt: Writing subagent prompts](./system-prompts/system-prompt-writing-subagent-prompts.md) (**287** tks) - Guidelines for writing effective prompts when delegating tasks to subagents, covering context-inheriting vs fresh subagent scenarios.
 
