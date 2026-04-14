@@ -4,6 +4,12 @@ Note: Only use **NEW:** for entirely new prompt files, NOT for new additions/sec
 
 ### Claude Code System Prompts Changelog
 
+# [2.1.107](https://github.com/Piebald-AI/claude-code-system-prompts/commit/45fab40)
+
+_+119 tokens_
+
+- **NEW:** System Reminder: Thinking frequency tuning — Added instructions for Claude to treat system-reminder tags as harness instructions and calibrate thinking frequency based on task complexity.
+
 # [2.1.105](https://github.com/Piebald-AI/claude-code-system-prompts/commit/0b584ef)
 
 _+4,895 tokens_
